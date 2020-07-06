@@ -45,6 +45,7 @@ fun main() {
     val list = range(4)
     p(list)
     p(reduce(add, list))
+    p(take(2, list))
 
     val lazyList = lazyRange(4)
     p(lazyList)
